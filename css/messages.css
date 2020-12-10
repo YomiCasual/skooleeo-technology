@@ -1,44 +1,15 @@
 @import url("./main.css");
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-:root {
-	--primary-color: #82c91e;
-	--primary-color-light: #cbee9b;
-	--secondary-color: #ff7300;
-	--main-black: #000000;
-	--main-white: #fff;
-	--main-black: #000000;
-	--secondary-black: #7c7a7a;
-	--debug-white: 1px solid white;
-	--debug-black: 1px solid black;
-}
-
-/* Beginning of Custom Settings  */
-
-body {
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-img {
-	width: 100%;
-}
-
 .message-class {
 	display: grid;
-    grid-template-columns: 3fr 4fr;
-    grid-gap: 1rem;
+	grid-template-columns: 3fr 4fr;
+	grid-gap: 1rem;
 }
 
-.left-frame, .right-frame{
-
+.left-frame,
+.right-frame {
 	min-height: 400px;
 }
-
 
 .settings {
 	background-color: #dadada;
@@ -53,13 +24,13 @@ img {
 	padding: 0.5rem;
 	margin-right: -12px;
 	border-radius: 4px;
-    cursor: pointer;
-    color: var(--main-white)
+	cursor: pointer;
+	color: var(--main-white);
 }
 
-
-.left-frame,.right-frame {
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2)
+.left-frame,
+.right-frame {
+	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
 ul {
@@ -80,28 +51,25 @@ ul {
 }
 
 .card-header {
-    background-color: white!important;
+	background-color: white !important;
 }
 
 .card-footer {
 	border-radius: 0 0 15px 15px !important;
-    border-top: 0 !important;
-    width: 100%;
-    background-color: white!important;
-    padding: 0!important;
+	border-top: 0 !important;
+	width: 100%;
+	background-color: white !important;
+	padding: 0 !important;
 }
 
-
-
-.card-footer input{
-    width: 100%!important;
-    background-color: white!important;
-    padding: 0.2rem 1rem;
-    resize: none;
-    margin-left: 1rem;
-    color: black!important;
+.card-footer input {
+	width: 100% !important;
+	background-color: white !important;
+	padding: 0.2rem 1rem;
+	resize: none;
+	margin-left: 1rem;
+	color: black !important;
 }
-
 
 .container {
 	align-content: center;
@@ -130,12 +98,11 @@ ul {
 .attach_btn {
 	margin-left: 1rem;
 	/* border: 0 !important; */
-	color:black!important;
-    cursor: pointer;
-
+	color: black !important;
+	cursor: pointer;
 }
 .send_btn {
-    margin-right: 2rem;
+	margin-right: 2rem;
 	cursor: pointer;
 }
 
@@ -175,7 +142,7 @@ ul {
 	margin-left: 15px;
 }
 .user_info span {
-    font-weight: 700;
+	font-weight: 700;
 	font-size: 20px;
 	color: black;
 }
@@ -188,12 +155,13 @@ ul {
 	margin-top: 5px;
 }
 .video_cam span {
-	color: black
+	color: black;
 	font-size: 20px;
 	cursor: pointer;
 	margin-right: 20px;
 }
-.msg_cotainer,.msg {
+.msg_cotainer,
+.msg {
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 10px;
@@ -206,7 +174,7 @@ ul {
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-right: 10px;
-    border-radius: 5px;
+	border-radius: 5px;
 	background-color: var(--primary-color-light);
 	padding: 0.5rem 1rem;
 	position: relative;
@@ -218,13 +186,15 @@ ul {
 	color: black;
 	font-size: 10px;
 }
+
 .msg_time_send {
 	position: absolute;
 	right: 0;
 	bottom: -15px;
-	color:black;
+	color: black;
 	font-size: 10px;
 }
+
 .msg_head {
 	position: relative;
 }
