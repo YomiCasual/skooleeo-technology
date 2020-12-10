@@ -1,0 +1,119 @@
+.content-header {
+	color: var(--primary-color);
+	font-size: 18px;
+	margin-bottom: 1.5rem;
+}
+
+.card-items {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card-item {
+	margin-bottom: 1rem;
+	padding: 0 0.5rem !important;
+}
+
+.card-item-inner {
+	background-color: var(--main-white);
+	display: flex;
+	border-radius: 5px;
+	padding: 1rem 0rem 0.2rem 1rem !important;
+	cursor: pointer;
+	box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1), -5px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-item-inner:hover {
+	box-shadow: 5px 12px 15px rgba(0, 0, 0, 0.1),
+		-5px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-text {
+	margin-right: 1.4rem;
+}
+.top-divider {
+	width: 50%;
+	height: 2px;
+	border-radius: 50%;
+	background-color: red;
+	margin-bottom: 0.1rem;
+}
+
+.card-text h1 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.card-text p {
+	font-size: 11px;
+	font-weight: 700;
+}
+
+.icon-container {
+	padding: 0.5rem 1rem;
+	background-color: var(--primary-color-light);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.icon-container span {
+	font-size: 1.3rem;
+	color: var(--primary-color);
+}
+
+.other-classes {
+	margin-top: 0.7rem;
+	display: grid;
+	grid-template-columns: 635px 3fr;
+}
+
+.card-inner {
+	position: relative;
+	background-color: var(--main-white);
+	border-radius: 5px;
+	padding: 1rem 1rem 0.5rem !important;
+	cursor: pointer;
+	box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1), -5px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-inner:hover {
+	box-shadow: 5px 12px 15px rgba(0, 0, 0, 0.1),
+		-5px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-inner .status {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+table {
+	width: 100%;
+	padding: 0 !important;
+}
+.sub-header {
+	border: var(--debug-black);
+	width: 100%;
+}
+
+tr {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+th {
+	color: var(--secondary-black) !important;
+}
+
+th,
+td {
+	font-size: 12px;
+	margin-bottom: 1rem;
+}
+
+td img {
+	width: 40px;
+	border-radius: 50%;
+}
